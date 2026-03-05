@@ -1,4 +1,4 @@
-# Comparative Analysis of Airbnb in France and Belgium
+# Comparative Analysis of Airbnb Market in France and Belgium
 
 ## Overview
 
