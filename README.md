@@ -58,3 +58,27 @@ The project consists of two independent country-level analyses followed by a fin
 🇫🇷 France vs 🇧🇪 Belgium
         │
         └── Final PowerPoint Presentation
+```
+
+📁 Repository Structure
+```text
+Airbnb/
+│
+├── Belgium.csv
+├── Belgium Cleaned.xlsx
+├── Belgium Tableau.twbx
+├── Belgium.sql
+│
+├── France.xlsx
+├── France Cleaned.csv.gz
+├── France Tableau.twbx
+├── France.sql
+│
+├── Capestone Belgium.ipynb
+├── Capestone France.ipynb
+│
+├── Dataset Schema.sql
+├── Capestone Report.docx
+├── Airbnb-Market-Intelligence-and-Predictive-Analytics.pptx
+│
+└── README.md
