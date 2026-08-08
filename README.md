@@ -1,129 +1,60 @@
-# Comparative Analysis of Airbnb Market in France and Belgium
+# Airbnb Market Intelligence & Predictive Analytics
+
+## 🇫🇷 France & 🇧🇪 Belgium
 
 ## Overview
 
-This project performs a comprehensive comparative analysis of Airbnb listings across two European countries — **France** and **Belgium**. The goal is to uncover market insights such as pricing trends, availability patterns, host behavior, and listing characteristics to help stakeholders make informed decisions in the short-term rental market.
+This project is an end-to-end **Airbnb Data Analytics and Machine Learning** capstone project covering two country-specific Airbnb datasets: **France** and **Belgium**.
+
+Both countries were analyzed **independently using the same analytical framework** to ensure consistency and comparability. The analysis covers data cleaning, preprocessing, data treatment, exploratory data analysis, descriptive statistics, inferential statistics, Machine Learning, and dashboard development.
+
+The final **PowerPoint presentation** brings the results of the two independent analyses together to provide a **France vs Belgium comparative analysis** and derive strategic insights.
+
+The project focuses on Airbnb **pricing, listing and host performance, location, customer experience, property attributes and amenities, demand patterns, cancellation and security policies, and market segmentation**. :contentReference[oaicite:0]{index=0}
 
 ---
 
 ## Objectives
 
-- Compare Airbnb listing distributions and density between France and Belgium
-- Analyze pricing patterns across room types, neighborhoods, and seasons
-- Evaluate host activity and listing availability
-- Identify key factors influencing listing prices using statistical methods
-- Visualize insights through interactive Tableau dashboards
+- Analyze Airbnb listing and host performance.
+- Identify factors influencing listing prices and booking demand.
+- Examine geographic and location-based pricing patterns.
+- Analyze customer experience and satisfaction using reviews and ratings.
+- Evaluate the impact of property characteristics and amenities.
+- Study host experience and multi-listing host performance.
+- Analyze demand and seasonal patterns.
+- Evaluate cancellation and security policy relationships.
+- Segment Airbnb listings into distinct market groups using clustering.
+- Build Machine Learning models for price prediction and room-type classification.
+- Create interactive dashboards to communicate the findings.
+- Compare France and Belgium in the final presentation.
 
 ---
 
-## Repository Structure
+## Project Structure
 
-```
-├── Airbnb-Market-Intelligence-and-...  # Full project report / market intelligence document
-├── Belgium Cleaned.xlsx                # Cleaned Belgium dataset (Excel format)
-├── Belgium Tableau.twbx                # Tableau workbook for Belgium visualizations
-├── Belgium.csv                         # Raw Belgium Airbnb dataset
-├── Belgium.sql                         # SQL script for Belgium data
-├── Capestone Belgium.ipynb             # Jupyter Notebook – Belgium analysis
-├── Capestone France.ipynb              # Jupyter Notebook – France analysis
-├── Capestone Report.docx               # Detailed capstone project report
-├── Dataset Schema.sql                  # Database schema definition
-├── France Cleaned.csv.gz               # Compressed & Cleaned France dataset (Excel format)
-├── France Tableau.twbx                 # Tableau workbook for France visualizations
-├── France.xlsx                         # Raw France Airbnb dataset
-├── France.sql                          # SQL script for France data
-└── README.md                           # Project documentation
-```
+The project consists of two independent country-level analyses followed by a final comparative presentation.
 
----
-
-## Tech Stack
-
-| Tool | Purpose |
-|---|---|
-| Python (Jupyter Notebook) | Data cleaning, EDA, and statistical analysis |
-| Pandas, NumPy | Data manipulation |
-| Matplotlib, Seaborn | Data visualization |
-| SQL (MySQL) | Data storage and querying |
-| Tableau | Interactive dashboard creation |
-| Excel | Cleaned dataset storage |
-
----
-
-## Key Analysis Areas
-
-### 1. Price Analysis
-- Distribution of listing prices in France vs Belgium
-- Price variation by room type (Entire home, Private room, Shared room)
-- Neighborhood-level price heatmaps
-
-### 2. Availability & Demand
-- Average availability (days per year) by country and city
-- Seasonal availability trends
-
-### 3. Host Insights
-- Superhosts vs regular hosts
-- Multi-listing host analysis
-- Host response rate and acceptance rate comparison
-
-### 4. Listing Characteristics
-- Room type distribution
-- Minimum nights requirement
-- Review scores and their correlation with pricing
-
----
-
-## How to Run
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Santhosh35612/Comparative-Analysis-of-AirBnb-in-France-and-Belgium.git
-   cd Comparative-Analysis-of-AirBnb-in-France-and-Belgium
-   ```
-
-2. **Install required Python libraries**
-   ```bash
-   pip install pandas numpy matplotlib seaborn jupyter
-   ```
-
-3. **Run the Jupyter Notebooks**
-   ```bash
-   jupyter notebook
-   ```
-   Open `Capestone France.ipynb` or `Capestone Belgium.ipynb` to explore the analysis.
-
-4. **Database Setup**
-   - Import `Dataset Schema.sql` to set up the database schema
-   - Run `France.sql` and `Belgium.sql` to load data
-
-5. **Tableau Dashboards**
-   - Open `France Tableau.twbx` or `Belgium Tableau.twbx` in Tableau Desktop to explore interactive visualizations.
-
----
-
-## Dataset
-
-The datasets used in this project are sourced from [Inside Airbnb](http://insideairbnb.com/), an open-source project that provides publicly available Airbnb listing data for cities around the world.
-
----
-
-## Results & Insights
-
-- France generally exhibits higher average listing prices compared to Belgium, driven by major tourist destinations like Paris.
-- Belgium shows a more uniform price distribution across cities.
-- Entire home/apartment listings dominate both markets but are priced significantly higher than private or shared rooms.
-- Superhosts tend to maintain better availability and higher review scores in both countries.
-
----
-
-## Author
-
-**Santhosh**  
-B.E. Computer Science and Engineering  
-GitHub: [@Santhosh35612](https://github.com/Santhosh35612)
-
----
-
-## License
-
-This project is intended for educational and research purposes only. Dataset credits go to [Inside Airbnb](http://insideairbnb.com/).
+```text
+🇫🇷 France Analysis
+        │
+        ├── Data Cleaning & Preprocessing
+        ├── Exploratory Data Analysis
+        ├── Statistical Analysis
+        ├── Machine Learning
+        └── Tableau Dashboard
+        │
+        +
+        │
+🇧🇪 Belgium Analysis
+        │
+        ├── Data Cleaning & Preprocessing
+        ├── Exploratory Data Analysis
+        ├── Statistical Analysis
+        ├── Machine Learning
+        └── Tableau Dashboard
+        │
+        ↓
+🇫🇷 France vs 🇧🇪 Belgium
+        │
+        └── Final PowerPoint Presentation
